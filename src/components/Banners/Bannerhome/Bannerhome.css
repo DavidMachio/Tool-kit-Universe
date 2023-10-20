@@ -1,0 +1,121 @@
+.banner {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: space;
+  flex-direction: column;
+}
+.bannerhome {
+  height: auto;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgb(31, 145, 145) 100%
+  );
+}
+.texts {
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+.texts h2 {
+  text-align: left;
+  font-size: 80px;
+  font-weight: 700;
+  width: 100%;
+  color: inherit;
+  font-size: 100px;
+  font-weight: 700;
+  font-style: oblique;
+  text-shadow: 3px 2px 3px rgba(83, 83, 83, 0.649);
+}
+
+.texts > h3 {
+  width: 600px;
+  font-weight: 400;
+  padding: 15px 15px;
+  text-shadow: 3px 2px 3px rgba(83, 83, 83, 0.302);
+}
+
+.explorar {
+  text-align: center;
+  width: 180px;
+  height: 50px;
+  border: solid 2px;
+  border-radius: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+.subscribe:hover,
+.explorar:hover {
+  background-color: transparent;
+  scale: 110%;
+}
+.subscribe {
+  border: 2px solid;
+  color: inherit;
+  height: 36px;
+  width: auto;
+  border-radius: 18px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 300;
+  background-color: transparent;
+}
+.img {
+  height: 300px;
+  width: auto;
+}
+
+@media screen and (max-width: 1160px) {
+  .bannerhome {
+    flex-direction: column-reverse;
+  }
+  .texts {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .texts h2 {
+    width: 100%;
+    text-align: center;
+    padding: 0 10px;
+    font-size: 60px;
+  }
+  .texts h3 {
+    font-size: 18px;
+    width: 50%;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .img {
+    width: 35vw;
+    height: auto;
+  }
+}
+@media screen and (max-width: 630px) {
+  .texts h2 {
+    padding: 10px;
+  }
+  .texts h3 {
+    font-size: 12px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .texts h2 {
+    font-size: 40px;
+    padding: 10px;
+  }
+  .texts h3 {
+    font-size: 12px;
+    width: 80%;
+  }
+}

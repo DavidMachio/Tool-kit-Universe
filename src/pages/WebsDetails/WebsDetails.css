@@ -1,0 +1,78 @@
+.details {
+  padding: 0 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  gap: 10px;
+}
+.app-name {
+  font-size: 40px;
+}
+.ficha {
+  width: 95vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.images {
+  display: flex;
+  gap: 20px;
+}
+
+.cover {
+  height: 530px;
+  width: 50vw;
+  align-items: start;
+  object-fit: cover;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 22px 0px var(--tertiary);
+}
+.miniaturas {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.mini {
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 22px 0px var(--tertiary);
+  width: 30vw;
+  height: 250px;
+  object-fit: cover;
+}
+.description {
+  font-size: 20px;
+  width: 80vw;
+  text-align: justify;
+  padding: 20px 10px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  height: 100%;
+  gap: 20px;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.box {
+  color: inherit;
+  background-color: transparent;
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 20px;
+}

@@ -1,0 +1,80 @@
+header {
+  background-color: inherit;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+}
+.toolKit {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+header nav {
+  background-color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+header nav ul a:hover {
+  color: rgb(136, 136, 136);
+  text-decoration: underline;
+}
+nav .active {
+  color: rgb(136, 136, 136);
+  text-decoration: underline;
+}
+.theme,
+.login {
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  transition: all 0.5s ease-in-out;
+}
+.burguer {
+  display: none;
+}
+@media screen and (max-width: 650px) {
+  .header-ul {
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 60px;
+    opacity: 0;
+    height: 1vh;
+    transition: all 0.5s;
+    z-index: 5;
+    padding: 0;
+  }
+
+  .visible {
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    padding: 30px;
+    height: 40vh;
+    background-color: inherit;
+    box-shadow: 0 200px 350px rgba(0, 0, 0, 0.413);
+    opacity: 100;
+    z-index: 1;
+  }
+  .burguer {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    display: flex;
+    z-index: 10;
+  }
+}

@@ -1,0 +1,133 @@
+main {
+  min-height: calc(100vh - 90px);
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.seeker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 22px 0px var(--tertiary);
+  width: 350px;
+  height: 120px;
+  gap: 20px;
+}
+.search {
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 22px 0px var(--tertiary);
+  text-align: center;
+  height: 30px;
+  width: 300px;
+  display: flex;
+  font-size: 20px;
+}
+.top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.results {
+  text-align: center;
+}
+.favoritos {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  text-align: end;
+  width: 200px;
+}
+.icono-favoritos {
+  border: none;
+  background-color: transparent;
+  align-self: flex-start;
+  font-size: 30px;
+}
+.fav {
+  width: 100%;
+  border: 2px solid black;
+  box-shadow: 0px 0px 12px 0px var(--tertiary);
+  border-radius: 10px;
+  background-color: grey;
+  padding: 10px;
+}
+.hide {
+  display: none;
+}
+
+.weblist {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
+  margin: 0 auto;
+  gap: 30px;
+  justify-items: space-between;
+}
+.card {
+  border: 2px solid black;
+  box-shadow: 0px 0px 12px 0px var(--tertiary);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.imgcard {
+  border-radius: 5px;
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+}
+.nameapp {
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.mas {
+  color: var(--secondary);
+  border: 2px solid inherit;
+  background-color: rgb(178, 254, 178);
+  width: 80px;
+  height: 30px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.mas:hover {
+  scale: 105%;
+  background-color: transparent;
+  color: inherit;
+  box-shadow: 0px 0px 12px 0px var(--tertiary);
+}
+.card-icon {
+  display: none;
+  height: 20px;
+  width: auto;
+}
+.card-description {
+  padding: 5px;
+}
+.favourites {
+  display: flex;
+  justify-content: space-between;
+}
+.card-tags {
+  padding: 5px;
+  color: grey;
+  font-style: italic;
+}
+.add {
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: aquamarine;
+  border-radius: 50%;
+  font-size: 30px;
+}
+.add:hover {
+  scale: 110%;
+}

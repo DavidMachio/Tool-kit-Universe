@@ -1,0 +1,52 @@
+:root {
+  --primary: rgb(243, 243, 243);
+  --secondary: rgb(39, 39, 39);
+  --tertiary: rgb(159, 159, 159);
+  font-family: "Montserrat", sans-serif;
+}
+
+.day {
+  background-color: var(--secondary);
+  color: var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+.night {
+  color: var(--secondary);
+  background-color: var(--primary);
+  transition: all 0.5s ease-in-out;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.5s;
+}
+li {
+  list-style: none;
+}
+
+.visitar,
+.previo {
+  text-transform: uppercase;
+  align-self: center;
+  text-align: center;
+  height: 40px;
+  width: 90px;
+  padding: 10px;
+  color: black;
+  border: 2px solid black;
+  border-radius: 10px;
+  background-color: aquamarine;
+  transition: all 0.5s ease-in-out;
+}
+.visitar:hover,
+.previo:hover {
+  scale: 110%;
+  box-shadow: 0px 0px 12px 0px var(--tertiary);
+  background-color: transparent;
+  color: inherit;
+}

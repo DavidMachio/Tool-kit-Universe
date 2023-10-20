@@ -1,0 +1,20 @@
+.home {
+  min-height: calc(100vh - 90px);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.usuarios {
+  font-size: 40px;
+  text-align: center;
+}
+.unete {
+  height: 80px;
+  width: 250px;
+  font-size: 30px;
+  border: 2px solid;
+  background-color: transparent;
+  color: inherit;
+  border-radius: 40px;
+}

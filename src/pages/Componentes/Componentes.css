@@ -1,0 +1,57 @@
+.componentes {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.componentes p {
+  align-self: center;
+  text-align: center;
+  width: 60vw;
+}
+.cabecera {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+.cabecera h1,
+h2 {
+  font-size: 40px;
+}
+.comp-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.ejemplo-card {
+  width: 40vw;
+  border-radius: 20px;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card-code {
+  overflow: auto;
+  scrollbar-track-color: white;
+  padding: 20px;
+  height: 350px;
+  width: 80vw;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 22px 0px var(--tertiary);
+}
+.css {
+  overflow: auto;
+  padding: 20px;
+  height: 350px;
+  width: 80vw;
+  border: 2px solid black;
+  border-radius: 15px;
+  box-shadow: 0px 0px 22px 0px var(--tertiary);
+}
